@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+}
+
+.button_pagination {
+  font-size: 19px;
+  margin: 0 3px !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.prev {
+  transform: rotate(180deg);
+}

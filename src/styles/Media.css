@@ -1,0 +1,36 @@
+@media (max-width:600px) {
+    .input_container {
+        width: 90%;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category_title {
+        display: none;
+    }
+
+    .select_button {
+        display: block;
+    }
+
+}
+
+@media (max-width:450px) {
+    .input_container {
+        padding: 20px 0;
+    }
+
+    .search_input {
+        line-height: 3.5;
+    }
+
+    .search_button {
+        right: 0.15em;
+        top: 28%;
+        padding: 12px 15px;
+    }
+
+}

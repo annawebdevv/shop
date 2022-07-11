@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+p{
+  margin-bottom: 10px;
+}
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px 30px;
+  font-size: 24px;
+}
+.swiper{
+  margin-bottom: 20px;
+}
+.swiper-wrapper{
+  align-items: center;
+
+}
+.swiper-slide{
+max-height: 300px;
+}
+.swiper-slide img{
+  max-height: inherit;
+  max-width: 300px;
+  object-fit: contain;
+}
+.button {
+  border-radius: 5px;
+  padding: 8px 15px;
+  width: 70px;
+
+}
+
+.search_button {
+  position: absolute;
+  right: 0.05em;
+  top: calc(50% - 16px);
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.primary {
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease;
+  background-color: rgb(46, 37, 207);
+  color: rgb(255, 255, 255);
+}
+
+.primary:hover {
+  background-color: rgb(35, 28, 167);
+
+}
+
+.primary:active {
+  background-color: rgb(25, 20, 119);
+}
+
+.outline {
+  margin: 10px 0 ;
+  border: 1px solid rgba(134, 132, 176, 0.647);
+  cursor: pointer;
+  transition: all .3s ease;
+  background-color: transparent;
+  color: rgb(35, 28, 167);
+  text-align: center;
+}
+
+.outline:hover {
+  background-color: rgba(134, 132, 176, 0.647);
+
+}
+
+.outline:active {
+  background-color: rgba(88, 85, 139, 0.789);
+}
+.link {
+  font-size: 20px;
+  width: auto;
+  margin: 5px 0 ;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease;
+  background-color: transparent;
+  color: rgb(35, 28, 167);
+  text-align: center;
+}
+
+.link:hover {
+  background-color: rgba(134, 132, 176, 0.647);
+
+}
+
+.link:active {
+  background-color: rgba(88, 85, 139, 0.789);
+}

@@ -1,0 +1,25 @@
+
+.body{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.sidebar{
+position: relative;
+font-size: .7em;
+}
+.select_button{
+    display: none;
+    padding: 7px 20px 7px 6px;
+    text-align: start;
+    background: transparent;
+    border: 1px gray solid;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    min-width: 210px;
+    background-image: url("./../utils/downarrow.svg");
+    background-position: 96% center ;
+    background-repeat: no-repeat;
+  
+    cursor: pointer;
+
+}
