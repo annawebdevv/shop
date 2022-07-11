@@ -9,6 +9,8 @@ export const Search = () => {
   const { state, setState } = useContext(ProductsContext);
 
   const handleSearch = async () => {
+   let search =  searchRef.current.value.trim()
+   if (search ==="") return
     setState({
       ...state,
       search: searchRef.current.value,
